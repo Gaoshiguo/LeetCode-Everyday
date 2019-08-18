@@ -15,3 +15,5 @@
 **思路一：使用加法器的原理，将个位数分别相加，每一位上大于10的取模向前进位（算法时间复杂度O（n），以内存换空间）**
 
 * 003：题目大致描述如下：你找出其中不含有重复字符的最长子串的长度。例如：—_输入"abcabcbb"，无重复字符的最长子串是 "abc"，所以其长度为 3.又例如："pwwkew"因为无重复字符的最长子串是 "wke"，所以其长度为 3。请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。要求字串连续不间断。_
+
+[leetcode003](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
