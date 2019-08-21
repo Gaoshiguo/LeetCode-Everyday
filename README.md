@@ -1,2 +1,3 @@
 # python-base-knowledge-exercise
-this project is show daily python basic exercise
+## 用Python实现LeetCode中的题目
+[leetcode](https://leetcode-cn.com/)
