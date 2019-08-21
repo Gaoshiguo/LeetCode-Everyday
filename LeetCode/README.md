@@ -19,4 +19,10 @@
 [leetcode003](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/) 
 
 **思路一：从首位开始将字符存储在临时数组tem_array中，依次查看判断后面字符是否在临时数组中出现过，如果没有出现就将这个字符添加到临时数组中，继续向下查找，否则就跳出本次循环，同时记录此次查找临时数组的长度length，在下一次跳出循环时，比较tem_array的长度与length的长度谁大，谁大就用谁代表最长字串的长度** 
+
 [leetcode004](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) 
+
+*004题目大致描述如下：给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))
+例如：nums1 = [1, 3]，nums2 = [2]则中位数是 2.0，nums1 = [1, 2]，nums2 = [3, 4]，则中位数是 (2 + 3)/2 = 2.5
+
+**思路一：先将两个有序数组合并成一个有序数组，在寻找中位数。注意时间复杂度，由于都是有序数组，所以不必使用双循环来实现合并，从而降低时间复杂度，达到题目要求。
