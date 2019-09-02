@@ -84,3 +84,5 @@
 
 **思路一：使用中心扩散法。首先将数字转化成字符串，找到中心位置，由于回文数是中心对称结构，写一个while循环，从中心点开始一次向两边扩散，一旦两边不一样就退出循环，返回false，如果找到终点位置：左边left标记变成0，右边right标记变成数组长度，即证明该数字是中心对称结构的也就是回文字**
 
+[leetcode010](https://leetcode-cn.com/problems/container-with-most-water/)
+
